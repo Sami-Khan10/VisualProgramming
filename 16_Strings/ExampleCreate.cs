@@ -30,7 +30,7 @@ namespace _16_Strings
             //formatting method to convert a value
             DateTime waiting = new DateTime(2012, 10, 10, 17, 58, 1);
             string chat = String.Format("Message sent at {0:t} on {0:D}",waiting);
-            Console.WriteLine("Message: {0}", chat);
+            Console.WriteLine("chat: {0}", chat);
 
             Console.ReadKey();
         }
